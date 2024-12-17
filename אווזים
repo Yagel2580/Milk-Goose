@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חלב על זה!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ברוך הבא ל-"חלב על זה!"</h1>
+        <img src="https://link_to_goose_image.jpg" alt="🪿" class="gooseImage">
+        <div>
+            <label for="username">הכנס את שמך:</label>
+            <input type="text" id="username" placeholder="הכנס שם">
+            <button id="saveNameButton">שמור שם</button>
+        </div>
+        <p id="welcomeMessage">היי, <span id="userName"></span>! אתה עדיין לא צברת אווזים.</p>
+        <p id="ruleText">אסור לשתות חלב לפני הפופקורן!</p>
+        <button id="changeRuleButton">שנה חוק</button>
+        <button id="shareButton">שיתף את החוק</button>
+        <button id="milkButton">חלב פרה!</button>
+        <p id="gooseCount">האווזים שלך: <span id="gooseCountValue">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
